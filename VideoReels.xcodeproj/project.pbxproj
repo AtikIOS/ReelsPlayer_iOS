@@ -6,30 +6,49 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		BEA102B92E27AD7E003AFB9C /* Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA102B72E27AD7E003AFB9C /* Presenter.swift */; };
+		BEA102BF2E27AD89003AFB9C /* HomeViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEA102BB2E27AD89003AFB9C /* HomeViewController.storyboard */; };
+		BEA102C02E27AD89003AFB9C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA102BC2E27AD89003AFB9C /* HomeViewController.swift */; };
+		BEA102C12E27AD89003AFB9C /* VideoPlayerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA102BD2E27AD89003AFB9C /* VideoPlayerController.swift */; };
+		BEA102C62E27ADA0003AFB9C /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA102C22E27ADA0003AFB9C /* Utilities.swift */; };
+		BEA102C72E27ADA0003AFB9C /* VideoLayers.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA102C42E27ADA0003AFB9C /* VideoLayers.swift */; };
+		BEA102C82E27ADA0003AFB9C /* VideoContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA102C32E27ADA0003AFB9C /* VideoContainer.swift */; };
+		BEA102CC2E27ADA7003AFB9C /* VideoCustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BEA102CA2E27ADA7003AFB9C /* VideoCustomCell.xib */; };
+		BEA102CD2E27ADA7003AFB9C /* VideoCustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA102C92E27ADA7003AFB9C /* VideoCustomCell.swift */; };
+		BECF93AF2E2156E000AB7078 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BECF93A42E2156E000AB7078 /* Assets.xcassets */; };
+		BECF93B12E2156E000AB7078 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BECF93A72E2156E000AB7078 /* LaunchScreen.storyboard */; };
+		BECF93B22E2156E000AB7078 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BECF93A92E2156E000AB7078 /* Main.storyboard */; };
+		BECF93B32E2156E000AB7078 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BECF93A32E2156E000AB7078 /* AppDelegate.swift */; };
+		BECF93B42E2156E000AB7078 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BECF93AA2E2156E000AB7078 /* SceneDelegate.swift */; };
+		BECF93B52E2156E000AB7078 /* VideoReels.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BECF93AB2E2156E000AB7078 /* VideoReels.xcdatamodeld */; };
+		BECF93B62E2156E000AB7078 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BECF93AC2E2156E000AB7078 /* ViewController.swift */; };
+		BECF93BF2E21580A00AB7078 /* ReelsViewCvCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BECF93BE2E21580A00AB7078 /* ReelsViewCvCell.xib */; };
+		BECF93C02E21580A00AB7078 /* ReelsViewCvCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BECF93BD2E21580A00AB7078 /* ReelsViewCvCell.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
+		BEA102B72E27AD7E003AFB9C /* Presenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Presenter.swift; sourceTree = "<group>"; };
+		BEA102BA2E27AD89003AFB9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/HomeViewController.storyboard; sourceTree = "<group>"; };
+		BEA102BC2E27AD89003AFB9C /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		BEA102BD2E27AD89003AFB9C /* VideoPlayerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerController.swift; sourceTree = "<group>"; };
+		BEA102C22E27ADA0003AFB9C /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		BEA102C32E27ADA0003AFB9C /* VideoContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoContainer.swift; sourceTree = "<group>"; };
+		BEA102C42E27ADA0003AFB9C /* VideoLayers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoLayers.swift; sourceTree = "<group>"; };
+		BEA102C92E27ADA7003AFB9C /* VideoCustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCustomCell.swift; sourceTree = "<group>"; };
+		BEA102CA2E27ADA7003AFB9C /* VideoCustomCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VideoCustomCell.xib; sourceTree = "<group>"; };
 		BECF93882E2156DA00AB7078 /* VideoReels.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VideoReels.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BECF93A32E2156E000AB7078 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BECF93A42E2156E000AB7078 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BECF93A52E2156E000AB7078 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BECF93A62E2156E000AB7078 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BECF93A82E2156E000AB7078 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BECF93AA2E2156E000AB7078 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BECF93AC2E2156E000AB7078 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BECF93AE2E2156E000AB7078 /* VideoReels.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = VideoReels.xcdatamodel; sourceTree = "<group>"; };
+		BECF93BD2E21580A00AB7078 /* ReelsViewCvCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReelsViewCvCell.swift; sourceTree = "<group>"; };
+		BECF93BE2E21580A00AB7078 /* ReelsViewCvCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ReelsViewCvCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		BECF939D2E2156DB00AB7078 /* Exceptions for "VideoReels" folder in "VideoReels" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = BECF93872E2156DA00AB7078 /* VideoReels */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		BECF938A2E2156DA00AB7078 /* VideoReels */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				BECF939D2E2156DB00AB7078 /* Exceptions for "VideoReels" folder in "VideoReels" target */,
-			);
-			path = VideoReels;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		BECF93852E2156DA00AB7078 /* Frameworks */ = {
@@ -42,10 +61,48 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BEA102B82E27AD7E003AFB9C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BEA102B72E27AD7E003AFB9C /* Presenter.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BEA102BE2E27AD89003AFB9C /* Controller 2 */ = {
+			isa = PBXGroup;
+			children = (
+				BEA102BB2E27AD89003AFB9C /* HomeViewController.storyboard */,
+				BEA102BC2E27AD89003AFB9C /* HomeViewController.swift */,
+				BEA102BD2E27AD89003AFB9C /* VideoPlayerController.swift */,
+			);
+			path = "Controller 2";
+			sourceTree = "<group>";
+		};
+		BEA102C52E27ADA0003AFB9C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BEA102C22E27ADA0003AFB9C /* Utilities.swift */,
+				BEA102C32E27ADA0003AFB9C /* VideoContainer.swift */,
+				BEA102C42E27ADA0003AFB9C /* VideoLayers.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		BEA102CB2E27ADA7003AFB9C /* Video Cell */ = {
+			isa = PBXGroup;
+			children = (
+				BEA102C92E27ADA7003AFB9C /* VideoCustomCell.swift */,
+				BEA102CA2E27ADA7003AFB9C /* VideoCustomCell.xib */,
+				BECF93B82E2157AE00AB7078 /* Cell */,
+			);
+			path = "Video Cell";
+			sourceTree = "<group>";
+		};
 		BECF937F2E2156DA00AB7078 = {
 			isa = PBXGroup;
 			children = (
-				BECF938A2E2156DA00AB7078 /* VideoReels */,
+				BECF93AD2E2156E000AB7078 /* VideoReels */,
 				BECF93892E2156DA00AB7078 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -56,6 +113,42 @@
 				BECF93882E2156DA00AB7078 /* VideoReels.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		BECF93AD2E2156E000AB7078 /* VideoReels */ = {
+			isa = PBXGroup;
+			children = (
+				BEA102B82E27AD7E003AFB9C /* Model */,
+				BECF93B72E2156E300AB7078 /* System */,
+				BEA102CB2E27ADA7003AFB9C /* Video Cell */,
+				BEA102C52E27ADA0003AFB9C /* Resources */,
+				BEA102BE2E27AD89003AFB9C /* Controller 2 */,
+				BECF93AC2E2156E000AB7078 /* ViewController.swift */,
+				BECF93A92E2156E000AB7078 /* Main.storyboard */,
+				BECF93A42E2156E000AB7078 /* Assets.xcassets */,
+				BECF93A52E2156E000AB7078 /* Info.plist */,
+				BECF93A72E2156E000AB7078 /* LaunchScreen.storyboard */,
+				BECF93AB2E2156E000AB7078 /* VideoReels.xcdatamodeld */,
+			);
+			path = VideoReels;
+			sourceTree = "<group>";
+		};
+		BECF93B72E2156E300AB7078 /* System */ = {
+			isa = PBXGroup;
+			children = (
+				BECF93AA2E2156E000AB7078 /* SceneDelegate.swift */,
+				BECF93A32E2156E000AB7078 /* AppDelegate.swift */,
+			);
+			path = System;
+			sourceTree = "<group>";
+		};
+		BECF93B82E2157AE00AB7078 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				BECF93BD2E21580A00AB7078 /* ReelsViewCvCell.swift */,
+				BECF93BE2E21580A00AB7078 /* ReelsViewCvCell.xib */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -72,9 +165,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				BECF938A2E2156DA00AB7078 /* VideoReels */,
 			);
 			name = VideoReels;
 			packageProductDependencies = (
@@ -122,6 +212,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEA102BF2E27AD89003AFB9C /* HomeViewController.storyboard in Resources */,
+				BECF93AF2E2156E000AB7078 /* Assets.xcassets in Resources */,
+				BECF93B12E2156E000AB7078 /* LaunchScreen.storyboard in Resources */,
+				BECF93B22E2156E000AB7078 /* Main.storyboard in Resources */,
+				BEA102CC2E27ADA7003AFB9C /* VideoCustomCell.xib in Resources */,
+				BECF93BF2E21580A00AB7078 /* ReelsViewCvCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,10 +228,49 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEA102B92E27AD7E003AFB9C /* Presenter.swift in Sources */,
+				BECF93B32E2156E000AB7078 /* AppDelegate.swift in Sources */,
+				BECF93B42E2156E000AB7078 /* SceneDelegate.swift in Sources */,
+				BEA102C62E27ADA0003AFB9C /* Utilities.swift in Sources */,
+				BEA102C72E27ADA0003AFB9C /* VideoLayers.swift in Sources */,
+				BEA102C82E27ADA0003AFB9C /* VideoContainer.swift in Sources */,
+				BEA102CD2E27ADA7003AFB9C /* VideoCustomCell.swift in Sources */,
+				BECF93B52E2156E000AB7078 /* VideoReels.xcdatamodeld in Sources */,
+				BECF93C02E21580A00AB7078 /* ReelsViewCvCell.swift in Sources */,
+				BECF93B62E2156E000AB7078 /* ViewController.swift in Sources */,
+				BEA102C02E27AD89003AFB9C /* HomeViewController.swift in Sources */,
+				BEA102C12E27AD89003AFB9C /* VideoPlayerController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BEA102BB2E27AD89003AFB9C /* HomeViewController.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEA102BA2E27AD89003AFB9C /* Base */,
+			);
+			name = HomeViewController.storyboard;
+			sourceTree = "<group>";
+		};
+		BECF93A72E2156E000AB7078 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BECF93A62E2156E000AB7078 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		BECF93A92E2156E000AB7078 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BECF93A82E2156E000AB7078 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		BECF939F2E2156DB00AB7078 /* Debug */ = {
@@ -149,9 +284,10 @@
 				INFOPLIST_FILE = VideoReels/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = HomeViewController;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -176,9 +312,10 @@
 				INFOPLIST_FILE = VideoReels/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = HomeViewController;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -333,6 +470,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BECF93AB2E2156E000AB7078 /* VideoReels.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BECF93AE2E2156E000AB7078 /* VideoReels.xcdatamodel */,
+			);
+			currentVersion = BECF93AE2E2156E000AB7078 /* VideoReels.xcdatamodel */;
+			path = VideoReels.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = BECF93802E2156DA00AB7078 /* Project object */;
 }
